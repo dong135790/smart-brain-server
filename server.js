@@ -15,7 +15,7 @@ const db = knex({
   }
 });
 
-console.log(db.select('*').from('users').then(data => console.log("data", data)))
+// console.log(db.select('*').from('users').then(data => console.log("data", data)))
 
 const app = express();
 
